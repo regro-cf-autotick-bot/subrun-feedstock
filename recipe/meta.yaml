@@ -1,5 +1,5 @@
 {% set name = "subrun" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/subrun-{{ version }}.tar.gz
-  sha256: ca4009be8cb3789da59995f3f4c4ae021eded91661ee8fe6284f3390ffa03742
+  sha256: ad9903be46fff734d4d06291af3526b00010045de3dc8d13331d282f726aedb6
 
 build:
   entry_points:
